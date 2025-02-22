@@ -1,1 +1,24 @@
-# empty
+{
+    "ruby.useLanguageServer": true, // Rubyの言語サーバーを使用してジャンプをサポート
+    "editor.formatOnSave": true, // 保存時にフォーマット
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit" // 保存時にインポートを整理
+    },
+    "editor.renderWhitespace": "all", // エディタでスペース、タブなどの空白文字を表示する
+    "diffEditor.ignoreTrimWhitespace": false, // 差分表示で文末の空白の違いを無視しない
+    "workbench.colorTheme": "Darcula Theme from IntelliJ", // 使用するテーマをIntelliJのDarculaに設定する
+    "breadcrumbs.enabled": true, // ファイルのパンくずリストをエディタ上部に表示する
+    "files.insertFinalNewline": false, // 保存時にファイルの末尾に自動で改行を追加する
+    "files.autoSave": "afterDelay", // 一定時間経過後に自動でファイルを保存する
+    "files.autoSaveDelay": 1000, // 自動保存の遅延時間を1秒（1000ミリ秒）に設定する
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.settings.applyToAllProfiles": [], // 保存時に文末の不要な空白を自動で削除する
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+}
