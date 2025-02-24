@@ -9,7 +9,7 @@
     "diffEditor.ignoreTrimWhitespace": false, // 差分表示で文末の空白の違いを無視しない
     "workbench.colorTheme": "Darcula Theme from IntelliJ", // 使用するテーマをIntelliJのDarculaに設定する
     "breadcrumbs.enabled": true, // ファイルのパンくずリストをエディタ上部に表示する
-    "files.insertFinalNewline": false, // 保存時にファイルの末尾に自動で改行を追加する
+    "files.insertFinalNewline": true, // 保存時にファイルの末尾に自動で改行を追加する
     "files.autoSave": "afterDelay", // 一定時間経過後に自動でファイルを保存する
     "files.autoSaveDelay": 1000, // 自動保存の遅延時間を1秒（1000ミリ秒）に設定する
     "files.trimFinalNewlines": true,
